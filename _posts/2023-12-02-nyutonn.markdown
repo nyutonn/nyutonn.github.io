@@ -1,0 +1,55 @@
+Title: 中野 雄斗 / Nakano Yuto
+Date: 2023-11-19
+<!-- Category: テスト -->
+<!-- Tags: テスト, 投稿 -->
+<!-- Slug: FirstPost -->
+<!-- Authors: Yuto Nakano -->
+<!-- Summary: NLP研究用の個人ページ作成 -->
+
+<!-- ## 中野雄斗 / Yuto Nakano -->
+
+<img src="/assets/img/milk.jpeg" width="300x300">
+
+### About me
+A Bachelor Student (B4) at [School of Engineering, Tohoku University](https://www.eng.tohoku.ac.jp/)
+
+Member of [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) (Sakaguchi, Tohokuhisa, Inui Lab)
+
+Twitter: [@nakano_nlp](https://twitter.com/nakano_nlp)
+
+Github: [nyutonn](https://github.com/nyutonn)
+
+### Interest
+* Natural Language Processing (NLP) 
+* Machine Learning 
+* Thread Conversation 
+  * Toxic detection 
+  * Moderation 
+
+### Publications
+中野 雄斗、野末 慎之介、穀田 一真、有山 知希、佐藤 魁、曾根 周作、亀井 遼平、謝 素春、成田 風香、守屋 彰二（東北大学）、赤間 怜奈、松林 優一郎、坂口 慶祐（東北大学・理化学研究所）
+
+Hagi bot: LLMを用いた対話状態追跡と人間らしい振る舞いで自然な議論を行うマルチモーダル対話システム
+
+dialogue system is [available](https://github.com/cl-tohoku/hagi-bot)
+
+### Awards
+第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023)
+対話システムライブコンペティション6 予選１位通過
+
+### Hobby
+- Playing Sports 
+  - Tennis, Squash 
+- Playing Game 
+  - Video Game (Nintendo) 
+  - Board Game 
+- Walking 
+- Singing 
+
+### Education
+|April 2020-Present|Tohoku University|
+|-|-|
+|April 2017-2020|Sendai Daiichi High School|
+
+### Contact
+nakano.yuto.t2@dc.tohoku.ac.jp
