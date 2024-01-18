@@ -51,8 +51,8 @@ Github: [nyutonn](https://github.com/nyutonn)
 
 ## Awards
 * 第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023) 対話システムライブコンペティション6.
-  * 予選１位通過
-  * 最優秀賞
+  * 予選 １位通過
+  * 本戦 最優秀賞
   * [結果の詳細](https://sites.google.com/view/dslc6/%E7%B5%90%E6%9E%9C)
 
 ## Education
