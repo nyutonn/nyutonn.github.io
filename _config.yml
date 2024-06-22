@@ -270,6 +270,8 @@ defaults:
       path: ""
       type: "posts"
     values:
+      sort_by: "date"
+      sort_order: "reverse"
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts

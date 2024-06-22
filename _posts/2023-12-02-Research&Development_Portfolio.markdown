@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Research and Development Portfolio
+date: 2024-06-21 22:00:00 +0900
+
 # subtitle: I'm a member of Tohoku NLP Group.
 thumbnail-img: /assets/img/erica.png
 # cover-img: /assets/img/milk.jpeg

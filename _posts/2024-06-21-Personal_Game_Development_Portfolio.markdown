@@ -1,6 +1,8 @@
 ---
 layout: post
 title: ゲーム開発ポートフォリオ
+date: 2023-12-21 13:00:00 +0900
+
 
 # subtitle: 趣味のゲーム開発の記録
 thumbnail-img: /assets/img/tetrimino.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 東北スカッシュサークル
+date: 2022-12-22 5:00:00 +0900
 
 # subtitle: 趣味のゲーム開発の記録
 thumbnail-img: /assets/img/sqc.jpg

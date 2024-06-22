@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Profile
+date: 2024-06-22 9:00:00 +0900
+
 # subtitle: I'm a member of Tohoku NLP Group.
 thumbnail-img: /assets/img/myface.jpg
 cover-img: /assets/img/milk.jpeg
