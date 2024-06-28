@@ -5,7 +5,7 @@ date: 2024-6-28 21:40:00 +0900
 
 
 # subtitle: 趣味のゲーム開発の記録
-thumbnail-img: /assets/img/tetrimino.jpg
+thumbnail-img: /assets/img/excel.png
 # cover-img: /assets/img/milk.jpeg
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
