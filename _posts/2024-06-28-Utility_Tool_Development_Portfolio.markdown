@@ -58,6 +58,8 @@ comments: true
 <br>
 
 ## ExcelAttendanceToPDF
+<img src="/assets/img/excel_button.png" width="700x400">
+
 ### 概要
 * PDF自動生成ツール
 * Excelマクロ，VBAを用いた
@@ -115,9 +117,10 @@ comments: true
     </li>
 </ul>
 
+<br>
 
 ### 使用方法
-
+<img src="/assets/img/excel_table.png" width="700x400">
 
 * ##### 事前準備
 1. 名前リストなどを外部からコピーしてC列の名前に貼り付ける
