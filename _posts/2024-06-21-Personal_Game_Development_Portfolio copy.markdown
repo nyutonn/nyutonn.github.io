@@ -53,7 +53,7 @@ comments: true
 ## 概要
 * 趣味のゲーム開発の記録です
 * ゲームの概要，開発期間，使用言語・ツール，プレイ動画をまとめています
-* [GitHub](https://github.com/nyutonn/GameDevelopment/tree/main)にてプログラムを公開しています
+* [GitHub](https://github.com/nyutonn/GameDevelopment/tree/main)にてプログラム等を公開しています
 
 <br>
 
@@ -64,6 +64,8 @@ comments: true
 4. [LEDリズム天国](#ledリズム天国)
 5. [ネットワーク対戦型オセロゲーム](#ネットワーク対戦型オセロゲーム)
 6. [Unity](#unity)
+
+<br>
 
 ## CUIドラクエ風RPG
 <img src="/assets/img/rpg_ドラクエ風RPGサムネイル.png" width="800x400">
@@ -113,6 +115,7 @@ comments: true
 * イラストの名前を当てるクイズ
 * ヒントボタンを押すと頭文字と文字数がわかるようになる
 * 著作権の関係で友人に書いて頂いたイラストを用いたクイズ動画となっている
+* ゲームプログラムは[GitHub](https://github.com/nyutonn/GameDevelopment/blob/main/2023_5_Pokemon_name_guessing_quiz/game_main/pokemon.py)にて公開
 
 ##### 開発期間
 * 2023.4-2023.5
