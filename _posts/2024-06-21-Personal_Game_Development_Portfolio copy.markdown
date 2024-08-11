@@ -53,20 +53,89 @@ comments: true
 ## 概要
 * 趣味のゲーム開発の記録です
 * ゲームの概要，開発期間，使用言語・ツール，プレイ動画をまとめています
-* [GitHub](https://github.com/nyutonn/GameDevelopment/tree/main)にてプログラムを公開しているものもあります
+* [GitHub](https://github.com/nyutonn/GameDevelopment/tree/main)にてプログラムを公開しています
 
 <br>
 
 ## 目次
-1. [オリジナルテトリスゲーム](#オリジナルテトリスゲーム)
-2. [ネットワーク対戦型オセロゲーム](#ネットワーク対戦型オセロゲーム)
-3. [LEDリズム天国](#ledリズム天国)
-4. [Unity](#unity)
-5. [イラスト名前当てクイズ](#イラスト名前当てクイズ)
+1. [CUIドラクエ風RPG](#cuiドラクエ風rpg)
+2. [GUIポケモン名前当てクイズ](#イラスト名前当てクイズ)
+3. [CUIテトリス](#guiテトリス)
+4. [LEDリズム天国](#ledリズム天国)
+5. [ネットワーク対戦型オセロゲーム](#ネットワーク対戦型オセロゲーム)
+6. [Unity](#unity)
 
-<br>
+## CUIドラクエ風RPG
+<img src="/assets/img/rpg_ドラクエ風RPGサムネイル.png" width="800x400">
 
-## オリジナルテトリスゲーム
+##### 概要
+* 短期間でC++を用いて作成したCUIドラクエ風RPG
+* １週間のC++新人研修体験短期インターンシップの最終提出課題として作成
+* メモリアロケーター（Pool Allocator）を用いたメモリ管理
+* ステートマシンを用いたゲーム状態の管理
+  * 状態遷移の詳細は [GitHub 上の project_drawings フォルダ内のPDF](https://github.com/nyutonn/GameDevelopment/blob/main/2024_8_CUI_DORAGON_QUEST_ike_RPG/project_drawings/ドラクエ風RPG操作説明.pdf)に記載
+* ゲームプログラムは[GitHub](https://github.com/nyutonn/GameDevelopment/blob/main/2024_8_CUI_DORAGON_QUEST_ike_RPG/game_main/CUIドラクエ風RPG_mac/run.cpp)にて公開
+
+##### 開発期間
+* 2024.8.8-2024.8.9
+* 2 日
+
+##### 使用言語・ツール
+* 使用言語: C++
+* OS: macOS・WindowsOS
+* エディター: VS Code・Visual Studio 2022
+
+##### プレイ動画
+* ゲームオーバー
+    <ul class="no-bullet"><li>
+    <video width="800" controls>
+    <source src="/assets/movie/rpg_ゲームオーバー.mp4" type="video/mp4">
+    </video></li></ul>
+* ゲームクリア
+    <ul class="no-bullet"><li>
+    <video width="800" controls>
+    <source src="/assets/movie/rpg_ゲームクリア.mp4" type="video/mp4">
+    </video></li></ul>
+
+<br><br>
+
+
+## GUIポケモン名前当てクイズ
+<!-- 著作権 -->
+<!-- イラストや使えばいいのでは？ -->
+<!-- ゲーム・アプリ・ソフトウェア・プログラムへの利用でないこと -->
+
+<img src="/assets/img/pokemon_ニャオハ.jpg" width="400x400">
+
+##### 概要
+* GUI ポケモン名前当てクイズゲーム
+* 当時SNSで流行していた[ポケモン全部言えるかな？](https://all-pokemon-ierukana.com/)に感銘を受け，ライトユーザー向けのより簡単なクイズを作成
+* イラストの名前を当てるクイズ
+* ヒントボタンを押すと頭文字と文字数がわかるようになる
+* 著作権の関係で友人に書いて頂いたイラストを用いたクイズ動画となっている
+
+##### 開発期間
+* 2023.4-2023.5
+* 約1ヶ月
+
+##### 使用言語・ツール
+* 使用言語: Python
+* ライブラリ: tkinter (GUI)
+* OS: macOS
+* エディター: VS Code
+
+##### プレイ動画
+* クイズ動画
+    <ul class="no-bullet"><li>
+    <video width="600" controls>
+    <source src="/assets/movie/pokemon_play.mp4" type="video/mp4">
+    </video></li></ul>
+
+
+<br><br>
+
+
+## GUIテトリス
 
 <img src="/assets/img/tetris_タイトル画面.png" width="400x400">
 
@@ -130,6 +199,43 @@ comments: true
 <br><br>
 
 
+## LEDリズム天国
+<img src="/assets/img/rhythm0_ポスター_オリジナルバリバリ三人衆.png" width="600x600">
+
+##### 概要
+* ラズベリーパイを用いて開発したリズム天国風リズムゲーム
+* 初代リズム天国GBA「パチパチ三人衆」「バリバリ三人衆」の音楽にノッて，リズムに合わせてボタンを押す
+* 2つのLEDが順に光るので，リズムに合わせて3つめのLEDを点灯させる
+* 押したタイミングに合わせて4つめのLEDの色が変化する
+* 曲が終わった際に得点を集計し，7セグメントLEDでレベル 0 ~ 9 で表示される
+* ゲームプログラムは[GitHub](https://github.com/nyutonn/GameDevelopment/tree/main/2023_1_Rhythm_Heaven_LED/game_main)にて公開
+
+##### 開発期間
+* 2022.12-2023.1
+* 約1ヶ月
+
+##### 使用言語・ツール
+* ハードウェア: ラズベリーパイ (Raspberry Pi)
+    <ul class="no-bullet"><li>
+    <img src="/assets/img/rhythm1_プレイ画像1.jpg" width="300x300">
+    </li></ul>
+* 言語: Python
+* OS: Windows OS
+* ターミナル: Windows Terminal
+* エディター: VS Code
+
+
+##### プレイ動画
+* 先輩に遊んでもらっている様子
+    <ul class="no-bullet"><li>
+    <video width="400" controls>
+    <source src="/assets/movie/thythm_プレイ動画.mp4" type="video/mp4">
+    </video></li></ul>
+
+
+<br><br>
+
+
 ## ネットワーク対戦型オセロゲーム
 <img src="/assets/img/othello_終了画面.png" width="500x500">
 
@@ -137,8 +243,7 @@ comments: true
 * 2つの端末で遊べるネットワークオセロゲーム
 * Oは白，Xが黒を表す
 * VS人間，VSコンピュータ どちらも可能
-* サーバのコンピュータはランダムではなく盤面を参考にした内部のアルゴリズムに従って指す
-* クライアントのコンピュータはランダムに指す
+* コンピュータはランダムに指す
 * オセロのマス目を左右にABCDEFGH，上下に12345678と表す
 * 手筋を表すときには左右から先に指定（例：D3）
 * ゲームプログラムは[GitHub](https://github.com/nyutonn/GameDevelopment/tree/main/2022_11_network_othello/game_main)にて公開
@@ -148,7 +253,7 @@ comments: true
 * 約1ヶ月
 
 ##### 使用言語・ツール
-* 言語: Python
+* 言語: C言語
 * OS: Windows OS
 * ターミナル: Windows Terminal
 * エディター: VS Code
@@ -182,43 +287,6 @@ comments: true
   <video width="600" controls>
   <source src="/assets/movie/othello2_自動VS手動.mp4" type="video/mp4">
   </video></li></ul>
-
-
-<br><br>
-
-
-## LEDリズム天国
-<img src="/assets/img/rhythm0_ポスター_オリジナルバリバリ三人衆.png" width="600x600">
-
-##### 概要
-* ラズベリーパイを用いて開発したリズム天国風リズムゲーム
-* 初代リズム天国GBA「パチパチ三人衆」「バリバリ三人衆」の音楽にノッて，リズムに合わせてボタンを押す
-* 2つのLEDが順に光るので，リズムに合わせて3つめのLEDを点灯させる
-* 押したタイミングに合わせて4つめのLEDの色が変化する
-* 曲が終わった際に得点を集計し，7セグメントLEDでレベル 0 ~ 9 で表示される
-* ゲームプログラムは[GitHub](https://github.com/nyutonn/GameDevelopment/tree/main/2023_1_Rhythm_Heaven_LED/game_main)にて公開
-
-##### 開発期間
-* 2022.12-2023.1
-* 約1ヶ月
-
-##### 使用言語・ツール
-* ハードウェア: ラズベリーパイ (Raspberry Pi)
-    <ul class="no-bullet"><li>
-    <img src="/assets/img/rhythm1_プレイ画像1.jpg" width="300x300">
-    </li></ul>
-* 言語: Python
-* OS: Windows OS
-* ターミナル: Windows Terminal
-* エディター: VS Code
-
-
-##### プレイ動画
-* 先輩に遊んでもらっている様子
-    <ul class="no-bullet"><li>
-    <video width="400" controls>
-    <source src="/assets/movie/thythm_プレイ動画.mp4" type="video/mp4">
-    </video></li></ul>
 
 
 <br><br>
@@ -327,38 +395,3 @@ comments: true
         </video></li></ul>
     </li>
 </ul>
-
-
-<br><br>
-
-
-## ポケモン名前当てクイズゲーム
-<!-- 著作権 -->
-<!-- イラストや使えばいいのでは？ -->
-<!-- ゲーム・アプリ・ソフトウェア・プログラムへの利用でないこと -->
-
-<img src="/assets/img/pokemon_ニャオハ.jpg" width="400x400">
-
-##### 概要
-* GUI ポケモン名前当てクイズゲーム
-* 当時SNSで流行していた[ポケモン全部言えるかな？](https://all-pokemon-ierukana.com/)に感銘を受け，ライトユーザー向けのより簡単なクイズを作成
-* イラストの名前を当てるクイズ
-* ヒントボタンを押すと頭文字と文字数がわかるようになる
-* 著作権の関係で友人に書いて頂いたイラストを用いたクイズ動画となっている
-
-##### 開発期間
-* 2023.4-2023.5
-* 約1ヶ月
-
-##### 使用言語・ツール
-* 使用言語: Python
-* ライブラリ: tkinter (GUI)
-* OS: macOS
-* エディター: VS Code
-
-##### プレイ動画
-* クイズ動画
-    <ul class="no-bullet"><li>
-    <video width="600" controls>
-    <source src="/assets/movie/pokemon_play.mp4" type="video/mp4">
-    </video></li></ul>
