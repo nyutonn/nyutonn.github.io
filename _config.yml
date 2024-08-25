@@ -258,7 +258,7 @@ timezone: "Asia/Tokyo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 10 # ページ表示数の最大値，これを超えると新しいページへ
 
 kramdown:
   input: GFM
